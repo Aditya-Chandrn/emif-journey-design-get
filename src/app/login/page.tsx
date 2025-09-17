@@ -15,7 +15,7 @@ const Login = () => {
     "password"
   );
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-white px-4 py-8">
+    <div className="flex flex-col items-center justify-center bg-white px-4 py-8">
       <div className="w-full max-w-[390px] border border-[#E5E7EB] rounded-2xl shadow-lg bg-white p-6">
         <Logo />
         <WelcomeSection />
