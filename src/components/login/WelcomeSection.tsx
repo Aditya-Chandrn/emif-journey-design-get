@@ -9,8 +9,11 @@ const WelcomeSection = () => (
       </div>
     </div>
     <div className="ml-4">
-      <div className="rounded-xl bg-[#F8F3F7] w-[90px] h-[90px] flex items-center justify-center overflow-hidden">
-        <Image src="/man.svg" alt="User" width={70} height={70} />
+      <div className="bg-center w-[101px] h-[104px] flex items-center justify-center overflow-hidden relative">
+        <div className="bg-[var(--Color-Brand-Red-100)] absolute left-0 right-0 top-[14px] bottom-0 w-[95px] h-[90px] mx-auto rounded-xl z-0" />
+        <div className="relative z-10">
+          <Image src="/man.svg" alt="User" width={98} height={102} />
+        </div>
       </div>
     </div>
   </div>

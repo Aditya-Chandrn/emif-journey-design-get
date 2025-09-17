@@ -1,7 +1,7 @@
-type LoginTabsProps = {
+interface LoginTabsProps {
   selected: "password" | "otp";
   onSelect: (val: "password" | "otp") => void;
-};
+}
 
 const LoginTabs = ({ selected, onSelect }: LoginTabsProps) => (
   <div className="w-full mt-2 mb-6">
