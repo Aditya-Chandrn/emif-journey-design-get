@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* Figma color variables */
+:root {
+  --Color-Grey-900: #1c2633;
+  --Color-Base-Brand-Red: #ed1c24;
+  --colors-text-text-secondary-700: #4b5563;
+  --Color-Grey-600: #717684;
+}
+
 body {
   margin: 0;
   padding: 0;
