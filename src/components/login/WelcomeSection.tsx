@@ -1,10 +1,12 @@
 import Image from "next/image";
 
 const WelcomeSection = () => (
-  <div className="flex flex-row items-center justify-between mt-8 mb-6">
-    <div>
-      <div className="text-[var(--Color-Grey-600)] text-lg">Welcome to,</div>
-      <div className="text-[var(--Color-Grey-900)] text-2xl font-bold">
+  <div className="flex flex-row gap-6">
+    <div className="w-[228px] pt-[30px] pb-[18px] gap-1">
+      <div className="text-[var(--Color-Grey-600)] font-normal text-md">
+        Welcome to,
+      </div>
+      <div className="text-[var(--Color-Grey-900)] text-lg font-semibold">
         Super App
       </div>
     </div>

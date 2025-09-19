@@ -1,7 +1,7 @@
 const InputFieldsOtp = () => (
-  <div className="flex flex-col gap-4 w-full mt-6">
+  <div className="flex flex-col gap-4 mt-6">
     <div className="flex flex-col gap-1">
-      <label className="font-medium text-[var(--colors-text-text-secondary-700)] text-base">
+      <label className="font-medium text-[var(--colors-text-text-secondary-700)] text-sm">
         Email id / Mobile no.
       </label>
       <input
@@ -11,7 +11,7 @@ const InputFieldsOtp = () => (
       />
     </div>
     <div className="flex flex-col gap-1 relative">
-      <label className="font-medium text-[var(--colors-text-text-secondary-700)] text-base mb-2">
+      <label className="font-medium text-[var(--colors-text-text-secondary-700)] text-sm mb-2">
         Enter OTP
       </label>
       <div className="flex justify-center gap-3 mt-1">

@@ -15,25 +15,23 @@ const Login = () => {
     "password"
   );
   return (
-    <div className="flex flex-col items-center justify-center bg-white px-4 py-8">
-      <div className="w-full max-w-[390px] border border-[#E5E7EB] rounded-2xl shadow-lg bg-white p-6">
-        <Logo />
-        <WelcomeSection />
-        <LoginTabs selected={loginMethod} onSelect={setLoginMethod} />
-        {loginMethod === "password" ? (
-          <>
-            <InputFieldsPassword />
-            <ForgotPassword />
-          </>
-        ) : (
-          <>
-            <InputFieldsOtp />
-            <GetOtpButton />
-          </>
-        )}
-        <Divider />
-        <AlternativeLoginButtons />
-      </div>
+    <div className="px-[30px] pt-[41px]">
+      <Logo />
+      <WelcomeSection />
+      <LoginTabs selected={loginMethod} onSelect={setLoginMethod} />
+      {loginMethod === "password" ? (
+        <>
+          <InputFieldsPassword />
+          <ForgotPassword />
+        </>
+      ) : (
+        <>
+          <InputFieldsOtp />
+          <GetOtpButton />
+        </>
+      )}
+      <Divider />
+      <AlternativeLoginButtons />
     </div>
   );
 };

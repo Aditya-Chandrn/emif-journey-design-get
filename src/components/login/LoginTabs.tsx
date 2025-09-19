@@ -5,7 +5,7 @@ interface LoginTabsProps {
 
 const LoginTabs = ({ selected, onSelect }: LoginTabsProps) => (
   <div className="w-full mt-2 mb-6">
-    <span className="block mb-2 text-[var(--Color-Grey-600)]">Login with</span>
+    <span className="font-normal text-md block mb-2 text-[var(--Color-Grey-600)]">Login with</span>
     <div className="flex w-full">
       <button
         className={`flex-1 py-2 border ${
